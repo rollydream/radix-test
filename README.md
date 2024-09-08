@@ -1,4 +1,4 @@
-# radix-test기본설치
+# 기본설치
 ```c
 npm install yarn
 yarn install
