@@ -36,3 +36,19 @@ main.js 수정 필요
 	"@storybook/addon-a11y", // 추가 필요
  ]
 ```
+
+# 기타
+## 404 에러
+react-router-dom Refresh 시 404 에러 발생
+
+클라이언트 측의 라우팅을 처리하는 경우, 서버는 해당 경로에 대한 파일을 찾을 수 없다 
+
+
+## 해결 방법
+nginx의 nginx.conf 파일 try_files 설정 (개발 요청)
+
+React Router의 basename 설정(BrowserRouter의 basename을 nginx의 서브 디렉토리를 같게 설정)
+
+정적 리소스(파일)을 가져오는 경로 올바르게 맞춰주기 
+
+
