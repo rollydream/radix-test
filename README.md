@@ -8,7 +8,7 @@ yarn add -D tailwindcss postcss autoprefixer
 yarn tailwind init -p
 yarn add axios
 ```
-# msw 설치
+# msw 설치 : api 요청을 모킹
 ```c
 yarn add msw --dev
 ```
@@ -16,7 +16,10 @@ yarn add msw --dev
 ```c
 npx msw init public/ --save
 ```
-
+# react-query 설치 : 데이터 패칭 관리
+```c
+yarn add @tanstack/react-query @tanstack/react-query-devtools
+```
 # Radix 설치
 ```c
 yarn add @radix-ui/react
