@@ -59,9 +59,4 @@ react-router-dom Refresh 시 404 에러 발생
 ## 해결 방법
 nginx의 nginx.conf 파일 try_files 설정 (개발 요청)
 
-React Router의 basename 설정(BrowserRouter의 basename을 nginx의 서브 디렉토리를 같게 설정)
-
-정적 리소스(파일)을 가져오는 경로 올바르게 맞춰주기 
-
-## VSCode 확장 프로그램 
-Tailwind CSS IntelliSense : 자동 완성
+React Router의 basename 설정(BrowserRouter의 basename을 nginx의 서브 디정
