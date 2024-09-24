@@ -39,6 +39,15 @@ main.js 수정 필요
 	"@storybook/addon-a11y", // 추가 필요
  ]
 ```
+# vite-bundle-visualizer 설치 (vite bundle 용량 분석) 
+```c
+yarn add --dev vite-bundle-visualizer
+```
+
+--output : 파일 저장 경로 설정
+```c
+yarn vite-bundle-visualizer --sourcemap --output output/my-stats.html
+```
 
 # 기타
 ## 404 에러
@@ -56,7 +65,3 @@ React Router의 basename 설정(BrowserRouter의 basename을 nginx의 서브 디
 
 ## VSCode 확장 프로그램 
 Tailwind CSS IntelliSense : 자동 완성
-
-
-
-
